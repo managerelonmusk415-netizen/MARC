@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>ELON MUSK FAN CLUBS — Notre gamme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-inner">
+        <a href="index.html" class="logo"
+          >ELON <span>MUSK FAN CLUBS VIP</span></a
+        >
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+        <div class="nav-links" id="navLinks">
+          <a href="index.html">Accueil</a>
+          <a href="qui-sommes-nous.html">Qui sommes-nous</a>
+          <a href="nos-sites.html">Nos sites</a>
+          <a href="notre-gamme.html" class="active">Notre gamme</a>
+          <a href="temoignage-video.html">Témoignages des fans</a>
+          <a href="contact.html">Nos contacts</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="page-inner">
+        <div class="eyebrow">Notre gamme</div>
+        <div class="pos"><img src="hyt.jpeg" alt="" srcset="" width="400" ></div>
+        <h2 style="font-size: 2.2rem">Les modèles ELON MUSK</h2>
+        <p style="margin-top: 14px; max-width: 56ch"></p>
+        Elon Musk a plusieurs projets, tous tournent autour de <br />la même
+        idée : technologie pour résoudre des gros problèmes. Voici les
+        principaux,<br />
+        et en quoi ils sont présentés comme utiles :
+        <div class="model-list">
+          <div class="model">
+            <div class="model-left">
+              <span class="model-num">01</span
+              ><span class="model-title">TESLA</span>
+            </div>
+            <span class="model-tag"
+              >accélérer la transition vers l'énergie durable pour lutter contre
+              le réchauffement.</span
+            >
+          </div>
+          <div class="model">
+            <div class="model-left">
+              <span class="model-num">02</span
+              ><span class="model-title"></span>Starlink (SpaceX)
+            </div>
+            <span class="model-tag"
+              >donner internet haut débit partout, même dans les zones rurales
+              où il n'y a pas de fibre.</span
+            >
+          </div>
+          <div class="model">
+            <div class="model-left">
+              <span class="model-num">03</span
+              ><span class="model-title">Neuralink</span>
+            </div>
+            <span class="model-tag">
+              aider des personnes paralysées à contrôler un ordinateur /
+              téléphone par la pensée, redonner la vue, traiter des maladies
+              neurologiques .</span
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>© 2026 ELON MUSK — Tous droits réservés.</footer>
+
+    <script>
+      const t = document.getElementById("navToggle");
+      const l = document.getElementById("navLinks");
+      t.addEventListener("click", () => l.classList.toggle("open"));
+    </script>
+  </body>
+</html>

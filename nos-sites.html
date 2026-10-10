@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>ELON MUSK FAN CLUBS — Nos sites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-inner">
+        <a href="index.html" class="logo">ELON<span>MUSK FAN CLUBS</span></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+        <div class="nav-links" id="navLinks">
+          <a href="index.html">Accueil</a>
+          <a href="qui-sommes-nous.html">Qui sommes-nous</a>
+          <a href="nos-sites.html" class="active">Nos sites</a>
+          <a href="notre-gamme.html">Notre gamme</a>
+          <a href="temoignage-video.html">Témoignage des fans </a>
+          <a href="contact.html">Nos contacts</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="page-inner">
+        <div class="eyebrow">Nos sites</div>
+        <h2 style="font-size: 2.2rem">ELON MUSK FAN CLUBS</h2>
+        <p style="margin-top: 14px; max-width: 56ch">
+          N'OUBLIER PAS DE CONTACTER LE MANAGER POUR VOS DEMANDES
+        </p>
+        <div class="site-list">
+          <div class="site-card">
+            <div>
+              <div class="site-name">
+                <a href="https://www.tesla.com/"> TESLA</a>
+              </div>
+              <div class="site-role">N'OUBLIER PAS DE CONTACTER LE MANAGER</div>
+            </div>
+            <span class="site-tag"
+              ><a href="https://www.tesla.com/">Recherche</a></span
+            >
+          </div>
+          <div class="site-card">
+            <div>
+              <div class="site-name">
+                <a href="https://www.SpaceX.com/">SpaceX</a>
+              </div>
+              <div class="site-role">N'OUBLIER PAS DE CONTACTER LE MANAGER</div>
+            </div>
+            <span class="site-tag"
+              ><a href="https://www.SpaceX.com/">Recherche</a></span
+            >
+          </div>
+          <div class="site-card">
+            <div>
+              <div class="site-name">
+                <a href="https://www.x.com/">X.COM</a>
+              </div>
+              <div class="site-role">N'OUBLIER PAS DE CONTACTER LE MANAGER</div>
+            </div>
+            <span class="site-tag"
+              ><a href="https://www.x.com/">Recherche</a></span
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>© 2026 ELON MUSK — Tous droits réservés</footer>
+
+    <script>
+      const t = document.getElementById("navToggle");
+      const l = document.getElementById("navLinks");
+      t.addEventListener("click", () => l.classList.toggle("open"));
+    </script>
+  </body>
+</html>
